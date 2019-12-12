@@ -1,0 +1,194 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+	@font-face {
+	font-family: "Black";
+	src: url("font/CircularStd-Black.ttf") format("truetype");
+	}
+
+	@font-face {
+	font-family: "Medium";
+	src: url("font/CircularStd-Medium.ttf") format("truetype");
+	}
+
+	@font-face {
+	font-family: "Book";
+	src: url("font/CircularStd-Book.ttf") format("truetype");
+	}
+
+.idevisual {
+	background-image: url("images/fond-site3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*HEADER*/
+
+header {
+	height: 5vh;
+	justify-content: center;
+	padding-top: 2vh;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	padding-right: 12vw;
+	font-family: "Book";
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: color .3s;
+	margin: 0px 20px;
+}
+
+a:hover {
+	color: #f10c8e;
+}
+
+/*FOOTER*/
+
+.lesapps {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	padding-right: 12vw;
+	padding-top: 15vh;
+	padding-bottom: 2vh;
+	font-family: "Book";
+}
+
+/*PARTIE DU HAUT*/
+
+.partiehaut {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: "Black";
+	font-size: 3.5em;
+	padding-top: 7vh;
+	animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari et Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+	
+}
+
+
+/*PERFORMANCE*/
+
+.performance {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-family: "Book";
+	color: #6B6B6B;
+	padding: 3vw;
+}
+
+.explication-performance {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	padding-top: 12vh;
+}
+
+
+.performance-picto {
+	display: flex;
+	justify-content: center;
+	height: 17vh;
+	padding-top: 13vh;
+	padding-right: 5vw;
+	transition: transform .5s;
+}
+
+.performance-picto:hover {
+	transform: scale(1.1) rotate(10deg);
+} 
+
+/*PERSONNALISATION*/
+
+.personnalisation-picto {
+	display: flex;
+	justify-content: center;
+	height: 17vh;
+	padding-top: 13vh;
+	padding-left: 5vw;
+	transition: transform .5s;
+}
+
+.personnalisation-picto:hover {
+	transform: scale(1.1) rotate(10deg);
+}
+
+.cquoi {
+	font-family: "Book";
+	color: #000000;
+	font-size: 2em;
+}
+
+.rectanglerose {
+	display: flex;
+	width: 3vw;
+	padding-bottom: 2vh;
+}
+
+.rose {
+	display: flex;
+	text-align: center;
+}

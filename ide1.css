@@ -1,0 +1,168 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+	@font-face {
+	font-family: "Black";
+	src: url("font/CircularStd-Black.ttf") format("truetype");
+	}
+
+	@font-face {
+	font-family: "Medium";
+	src: url("font/CircularStd-Medium.ttf") format("truetype");
+	}
+
+	@font-face {
+	font-family: "Book";
+	src: url("font/CircularStd-Book.ttf") format("truetype");
+	}
+
+.ideatom {
+	background-image: url("images/fond-site2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*HEADER*/
+
+header {
+	height: 5vh;
+	justify-content: center;
+	padding-top: 2vh;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	padding-right: 12vw;
+	font-family: "Book";
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: color .3s;
+	margin: 0px 20px;
+}
+
+a:hover {
+	color: #f10c8e;
+}
+
+/*PARTIE DU HAUT*/
+
+.partiehaut {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.gif {
+	padding-top: 7vh;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 20vh;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: "Black";
+	font-size: 5em;
+}
+
+/*UNE APPLICATION POUR TOUS*/
+
+.paragraphe-1 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	font-family: "Book";
+	color: #6B6B6B;
+	padding: 3vw;
+	height: 50vh;
+}
+
+.cquoi {
+	font-family: "Book";
+	color: #000000;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 7vh;
+}
+
+.explicationcquoi {
+	font-size: 1.5em;
+}
+
+.rectanglerose {
+	display: flex;
+	justify-content: center;
+	width: 3vw;
+	padding-bottom: 2vh;
+}
+
+.rose {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+/*SECTION LISTE*/
+
+
+
+.liste-mots {
+	padding-top: 10vh;
+	height: 50vh;
+}
+
+ol {
+	margin: 0;
+}
+
+.liste {
+	list-style-type: none;
+	color:white;
+	font-family:"Medium";
+	padding-top: 2vh;
+	text-align:center;
+	font-size: 2em;
+	transition: all 0.2s ease;
+}
+
+li:hover {
+	transform:scale(1.2);
+	color: #f10c8e;
+	
+}
+
+
+/*FOOTER*/
+
+.lesapps {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	padding-right: 12vw;
+	padding-top: 15vh;
+	padding-bottom: 3.9vh;
+	font-family: "Book";
+	margin: 0;
+}
+
